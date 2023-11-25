@@ -1,0 +1,137 @@
+body {
+    margin-left: 50px;
+    background-color: aqua;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.photo-info {
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+#main-photo {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+}
+
+.btns-go-to {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid gray;
+    color: gray;
+}
+
+.btns-go-to > div {
+    padding-left: 20px;
+    padding-right: 50px;
+    border-left: 1px solid gray;
+}
+
+.btns-go-to a {
+    color: gray;
+    text-decoration: none;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-content: center;
+}
+
+footer {
+    border-top: 1px solid gray;
+}
+
+/* Experience */
+
+table {
+    background-color: aquamarine;
+}
+
+table td {
+    padding-right: 50px;
+}
+
+/* Hobbies */
+
+#hobbies-list {
+    width: 400px;
+    background-color: aquamarine;
+    margin-bottom: 300px;
+}
+
+#hobbies-list li {
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid gray;
+    
+}
+
+/* News */
+
+.news {
+    padding: 50px;
+    border-left: 1px solid gray;
+    height: 500px;
+    
+}
+
+.news > p {
+    background-color: aquamarine;
+}
+
+/* Contact */
+#get-in-touch {
+    background-color: aquamarine;
+    margin-top: 50px;
+}
+
+#get-in-touch label {
+    display: block;
+}
+
+#get-in-touch input , 
+#get-in-touch textarea {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid gray;
+    padding: 10px 0 15px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    font-weight: bold;
+}
+
+button:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    
+}
+
+.contact-all {
+    border-left: 1px solid gray;
+    padding-left: 100px;
+}
+
